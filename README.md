@@ -14,3 +14,5 @@ images/0.pngをお気に入りの画像に変えてください。
 内容をいじったあと、zipファイルに圧縮し、「ファイルからアドオンをインストール」でインストールしてください
 
 なお、無印Firefox及びFirefox Betaでは使えないと思います。
+
+Firefox Nightly,Developer Edition,Floorp Legacyなら、about:configでxpinstall.signatures.requiredをfalseにすることでインストールできます。
