@@ -7,11 +7,11 @@ images/0.pngをお気に入りの画像に変えてください。
 
 色はFloorpのダークと同じになっています。
 
-## 使い方 1
-
 これ( https://gist.github.com/kaonasi-biwa/e735e864feb9d4691b73378799257638 )と使うことを想定しています
 
-リンク先のCSSは、プロファイルフォルダ/chrome/userChrome.cssに書き込んでください
+## 使い方 1
+
+リンク先のCSSを、プロファイルフォルダ/chrome/userChrome.cssに書き込んでください
 
 その後about:configでtoolkit.legacyUserProfileCustomizations.stylesheetsをtrueにしたらCSS側の準備は整います。
 
@@ -25,4 +25,4 @@ images/0.pngをお気に入りの画像に変えてください。
 
 次に、about:configでxpinstall.signatures.requiredをfalseにします。
 
-内容をいじったあと、zipファイルに圧縮し、「ファイルからアドオンをインストール」でインストールしてください
+内容をいじったものを、zipファイルに圧縮し、「ファイルからアドオンをインストール」でインストールしてください
